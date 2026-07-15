@@ -51,7 +51,7 @@ st.title("💬 Chatbot")
 
 # (1) st.session_state에 "messages"가 없으면 초기값을 설정
 if "messages" not in st.session_state:
-    st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
+    st.session_state["messages"] = [{"role": "assistant", "content": "안녕하세요? 스트림릿입니다"}]
 
 # (2) 대화 기록을 출력
 for msg in st.session_state.messages:
